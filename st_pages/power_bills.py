@@ -7,4 +7,4 @@
 """
 import streamlit as st
 
-st.title('电费')
+st.title('莱州电费')
