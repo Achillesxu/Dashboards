@@ -6,12 +6,17 @@
 @desc :
 """
 import streamlit as st
+
+st.set_page_config(
+    layout="wide",
+)
+
 pages = {
     'Home': [
         st.Page('st_pages/home.py', title='首页', icon='🏠')
     ],
-    'PowerBills': [
-        st.Page('st_pages/power_bills.py', title='莱州电费', icon='🏠')
+    'Bills': [
+        st.Page('st_pages/bills.py', title='账单', icon='🏠')
     ]
 }
 
